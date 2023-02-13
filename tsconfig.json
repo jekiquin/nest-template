@@ -29,5 +29,6 @@
     "noFallthroughCasesInSwitch": true,
     "pretty": true
   },
-  "include": ["./src", "./test"]
+  "include": ["./src", "./test"],
+  "exclude": ["node_modules"]
 }

@@ -29,4 +29,12 @@ module.exports = {
     'prettier/prettier': 'warn',
     'no-console': 'warn',
   },
+  settings: {
+    'import/resolver': {
+      typescript: {},
+      node: {
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
+      },
+    },
+  },
 };
